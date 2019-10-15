@@ -1,14 +1,13 @@
 require('./config/global.config');
 
-const express = require('express');
-const app = express();
-
-
-app.get('/', function (req, res, next) {
-    res.send('12dsdsdsdsdsds3');
+app.disable('x-powered-by');
+app.get('/index', function (req, res, next) {
+    // res.send('12dsdsdsdsdsds3');
+    // res.send(req.route.path);
+    res.send(__dirname);
     next();
 });
 
 app.listen(global_port, function () {
-    console.log(1233782372983789);
+    console.log("running on port: " + global_port);
 });
