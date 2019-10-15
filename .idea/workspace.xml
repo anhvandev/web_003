@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465febd0-937b-4ca9-b45d-a31669d48361" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router/index.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/define.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/define.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/global.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/global.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myapp" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,7 +73,7 @@
       <workItem from="1570790083652" duration="149000" />
       <workItem from="1570790233824" duration="2123000" />
       <workItem from="1571104737461" duration="5101000" />
-      <workItem from="1571110087860" duration="279000" />
+      <workItem from="1571110087860" duration="11319000" />
     </task>
     <servers />
   </component>
@@ -88,5 +92,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/router/index.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
