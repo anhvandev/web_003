@@ -1,5 +1,4 @@
-/*
-module.exports.admin = mongoose.connect('mongodb://admin:anhvan99@168.63.148.223:27017/?authSource=admin', {
+module.exports.admin = mongoose.connect('mongodb+srv://admin:anhvan99@cluster0-4quw9.mongodb.net/test?retryWrites=true&w=majority&authSource=tests', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(function () {
@@ -7,4 +6,4 @@ module.exports.admin = mongoose.connect('mongodb://admin:anhvan99@168.63.148.223
     mongoose.connection.on('error', function (err) {
         console.log(err);
     });
-});*/
+});
