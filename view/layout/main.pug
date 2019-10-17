@@ -1,0 +1,13 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible' content='ie=edge')
+    title #{title}
+body
+    if typeof data.accounts.data !== "undefined"
+        ul
+            each val, index in data.accounts.data
+                 li
+                    div Page: #{val.name}
+                    a(href='none' title='link') token: #{val.access_token}

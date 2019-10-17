@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465febd0-937b-4ca9-b45d-a31669d48361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/layout/main.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router/index.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/define.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/define.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/global.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/global.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/router.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +36,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app.js" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,10 +54,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" node-parameters="--inspect=6000" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.nodemon">
+    <configuration name="debug" type="NodeJSConfigurationType" node-parameters="--inspect=6000" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="nodemon" type="NodeJSConfigurationType" node-parameters="C:\Users\AnhVan\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.run" />
+      <item itemvalue="Node.js.nodemon" />
+      <item itemvalue="Node.js.debug" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,7 +86,9 @@
       <workItem from="1570790083652" duration="149000" />
       <workItem from="1570790233824" duration="2123000" />
       <workItem from="1571104737461" duration="5101000" />
-      <workItem from="1571110087860" duration="11319000" />
+      <workItem from="1571110087860" duration="11354000" />
+      <workItem from="1571190851612" duration="21889000" />
+      <workItem from="1571277685300" duration="5068000" />
     </task>
     <servers />
   </component>
@@ -92,17 +107,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/router/index.js</url>
-          <line>5</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
