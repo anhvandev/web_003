@@ -1,3 +1,4 @@
+/*
 module.exports.admin = mongoose.connect('mongodb://admin:anhvan99@168.63.148.223:27017/?authSource=admin', {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -6,4 +7,4 @@ module.exports.admin = mongoose.connect('mongodb://admin:anhvan99@168.63.148.223
     mongoose.connection.on('error', function (err) {
         console.log(err);
     });
-});
+});*/
