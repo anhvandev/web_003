@@ -19,6 +19,7 @@ app.use(function (err, req, res, next) {
 
 //require
 global.settings = require(config_path + 'settings.config');
+global.mongoose = require('mongoose');
 require(config_path + 'database.config');
 require(config_path + 'router.config');
 

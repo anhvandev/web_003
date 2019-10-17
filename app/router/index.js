@@ -1,6 +1,8 @@
+const index = require(controller_path + 'index');
 const graph = require('fbgraph');
 const uuidv4 = require('uuid/v4');
 const axios = require('axios');
+const User = require(model_path + 'user');
 let user_array = {};
 
 let checkUser = function (id, user) {
@@ -27,7 +29,9 @@ function insert(id, user) {
     user_array[id].name = user.name;
 }
 
-router.get('/', function (req, res, next) {
+router.get('/', index.index);
+
+router.get('/old', function (req, res, next) {
     graph.setAccessToken('EAAfsIsK99i0BAH6dmPZATz45todBxZCX9Bi9LM8DvQq7yVVDYkmRMiqJ5w3zvRTdZCVpo04Nc0QOdIGvuZA38EfUZCGJEbmDSeYmkI2hWjovFDQLgPHYB9gjZCEBBfrFhGHZAh2ZCvdbFaVaJeov5D7tbc0FwHzwCIrGZA5LSRxPmD3K7AopzhkyZASAjZCaMZCLcKpRJwpK2DXE3QZDZD');
     graph.get("1140043566105507" + "?fields=published_posts{message,comments{message,comments,from},from}", {}, async function (err, respo) {
 
@@ -74,34 +78,6 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/get-page-token', async function (req, res) {
-    //res.send('123');
-    /*axios({
-        method: 'get',
-        url: 'https://graph.facebook.com/v4.0/me',
-        //responseType: 'text',
-        params:{
-            fields: 'accounts',
-            access_token: 'EAABmFQlMNdoBAN8Rp8hzdmnI5NMiorVYjIqjTUA1SlnsJhh7ompVPlkaFoZAsdrDARW3r56VHoIoSbINOWb6XvcHqigOsYX1iALHjXdYKG0vXpA5IvHVKBkqPny3zPK0rYniHVEyafVrPNL2ISBTy9MiLhpIIRHTCcBLKzdD9UWXZCQEglQiS5EUzZBYamADBH7EmrROgZDZD'
-        }
-    })
-        .then(function (response) {
-            res.send(response);
-        })
-        .catch(function (err) {
-            console.log(err);
-        });*/
-    /*axios.get('https://graph.facebook.com/v4.0/me', {
-        fields: 'accounts',
-        access_token: 'EAABwzLixnjYBAMOpYSZAqAkaTEJ3bPYAU6LVWSgZBXoscrYnIgjVZB8N4SbhjcgPZCZCEd1CwC8erSoLOAXEv5wYy5gccvBQ4lgavtPRo38ZB4IXmg3euRN6NqmSXUXrVWZBf19dde3DPYZAiZCV9cmeAFgcMBaad7VUMZCqZCZBlPCYY1gby1uXthlF'
-    })
-        .then(function (response) {
-            console.log(JSON.stringify(response.data));
-            res.send(response.data);
-        })
-        .catch(function (error) {
-            console.log(error);
-            res.end();
-        });*/
     var getData = axios.create({
         baseURL: 'https://graph.facebook.com/v4.0/',
     });
