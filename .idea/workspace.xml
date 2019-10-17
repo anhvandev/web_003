@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465febd0-937b-4ca9-b45d-a31669d48361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controller/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/global.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/global.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecosystem.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +82,7 @@
       <workItem from="1571104737461" duration="5101000" />
       <workItem from="1571110087860" duration="11354000" />
       <workItem from="1571190851612" duration="21889000" />
-      <workItem from="1571277685300" duration="9980000" />
+      <workItem from="1571277685300" duration="10967000" />
     </task>
     <servers />
   </component>

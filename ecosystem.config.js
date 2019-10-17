@@ -26,6 +26,14 @@ module.exports = {
       repo : 'git@github.com:anhvandev/web_003.git',
       path : '/home/fb.toolvi.tk/public_html',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+    },
+    development : {
+      user : 'node',
+      host : '168.63.148.223',
+      ref  : 'origin/master',
+      repo : 'git@github.com:anhvandev/web_003.git',
+      path : '/home/fb.toolvi.tk/public_html',
+      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
 };
