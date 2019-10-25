@@ -12,16 +12,17 @@ passport.deserializeUser(function (id, done) {
 });
 
 passport.use(new LocalStrategy(function (username, password, done) {
-    password = md5(password);
-    UserUtil.getItem({params: {username: username, password: password}, options: {task: 'by_user'}})
-        .then(function (data) {
-            if (data === null) {
-                return done(null, false);
-            } else {
-                return done(null, data);
-            }
-        })
-        .catch(function (err) {
-            return done(err);
-        })
-}));
+        password = md5(password);
+        UserUtil.getItem({params: {username: username, password: password}, options: {task: 'by_user'}})
+            .then(function (data) {
+                if (data === null) {
+                    return done(null, false);
+                } else {
+                    return done(null, data);
+                }
+            })
+            .catch(function (err) {
+                return done(err);
+            });
+    })
+);

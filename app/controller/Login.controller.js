@@ -3,11 +3,14 @@ const UserUtil = require(util_path + 'User.util');
 const _view    = 'backend/login/';
 
 module.exports.index = function (req, res) {
-    req.isAuthenticated();
-    res.render(_view + 'index', {title: 'Đăng nhập'});
+    if (req.isAuthenticated() === true) {
+        res.redirect('/');
+    } else {
+        res.render(_view + 'index', {title: 'Đăng nhập'});
+    }
 };
 
-module.exports.indexPost = function (req, res, next) {
+/*module.exports.indexPost = function (req, res, next) {
     req.logIn(req.user, function (err) {
         if (err) {
             return next(err);
@@ -16,4 +19,4 @@ module.exports.indexPost = function (req, res, next) {
     });
     res.end();
     // res.render(_view + 'index', {title: 'Đăng nhập'});
-};
+};*/

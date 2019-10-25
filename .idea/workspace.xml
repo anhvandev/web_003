@@ -2,94 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465febd0-937b-4ca9-b45d-a31669d48361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controller/Index.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/Login.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middleware/Auth.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middleware/CheckLogin.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/Token.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/User.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/router/Login.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/util/Token.util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/util/User.util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.slim.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.slim.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/dist/socket.io.slim.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/docs/API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/lib/manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/lib/on.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/lib/socket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/lib/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/support/noop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/support/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/support/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/support/webpack.config.slim.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/support/webpack.config.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/test/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/test/connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/test/socket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/test/support/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/test/support/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/test/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/io/zuul.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/socket.io-client-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/backend/login/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/middleware/AuthGlobal.middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/Index.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/define.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/define.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/Index.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/Index.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/Login.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/Login.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/middleware/Auth.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/middleware/Auth.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router/Index.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/Index.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router/Login.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/Login.router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/global.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/global.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/router.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/layout/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/view/layout/main.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,10 +36,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="E:/OSPanel/domains/lang_tech/fanpage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_001" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -184,7 +104,9 @@
       <workItem from="1571710516801" duration="15266000" />
       <workItem from="1571794744175" duration="3252000" />
       <workItem from="1571798776662" duration="28000" />
-      <workItem from="1571798909956" duration="5696000" />
+      <workItem from="1571798909956" duration="6503000" />
+      <workItem from="1571816302422" duration="616000" />
+      <workItem from="1571971705830" duration="5641000" />
     </task>
     <servers />
   </component>

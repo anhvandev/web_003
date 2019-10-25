@@ -3,7 +3,6 @@ const cRouter = require(controller_path + 'Index.controller');
 /*const graph = require('fbgraph');
 const uuidv4 = require('uuid/v4');
 const axios = require('axios');*/
-const UserMidlleware = require(middleware_path + 'CheckLogin.middleware');
 
 router.get('/', cRouter.index);
 

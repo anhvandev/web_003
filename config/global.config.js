@@ -28,7 +28,7 @@ app.set('views', view_path);
 app.set('view cache', settings.CACHE);
 app.use('/', express.static(public_path));
 app.use(cookieParse());
-app.use(bodyParse.urlencoded({extended: false}));
+app.use(bodyParse.urlencoded({extended: true}));
 app.use(bodyParse.json({type: 'application/*+json'}));
 app.use(bodyParse.raw({type: 'application/vnd.custom-type'}));
 app.use(bodyParse.text({type: 'text/html'}));
