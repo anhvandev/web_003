@@ -1,37 +1,12 @@
-const index = require(controller_path + 'index');
-const graph = require('fbgraph');
+const router  = express.Router();
+const cRouter = require(controller_path + 'Index.controller');
+/*const graph = require('fbgraph');
 const uuidv4 = require('uuid/v4');
-const axios = require('axios');
-const User = require(model_path + 'user');
-let user_array = {};
+const axios = require('axios');*/
 
-let checkUser = function (id, user) {
+router.get('/', cRouter.index);
 
-    return new Promise((rel, rej) => {
-        if (Object.entries(user_array).length === 0 && user_array.constructor === Object) {
-            rel(id, user);
-        } else {
-            for (item in user_array) {
-                if (user_array[item].id !== user.id) {
-                    rel(id, user);
-                    break;
-                } else {
-                    rej(id);
-                }
-            }
-        }
-    });
-};
-
-function insert(id, user) {
-    console.log(user);
-    user_array[id].id = user.id;
-    user_array[id].name = user.name;
-}
-
-router.get('/', index.index);
-
-router.get('/old', function (req, res, next) {
+/*router.get('/old', function (req, res, next) {
     graph.setAccessToken('EAAfsIsK99i0BAH6dmPZATz45todBxZCX9Bi9LM8DvQq7yVVDYkmRMiqJ5w3zvRTdZCVpo04Nc0QOdIGvuZA38EfUZCGJEbmDSeYmkI2hWjovFDQLgPHYB9gjZCEBBfrFhGHZAh2ZCvdbFaVaJeov5D7tbc0FwHzwCIrGZA5LSRxPmD3K7AopzhkyZASAjZCaMZCLcKpRJwpK2DXE3QZDZD');
     graph.get("1140043566105507" + "?fields=published_posts{message,comments{message,comments,from},from}", {}, async function (err, respo) {
 
@@ -75,9 +50,9 @@ router.get('/old', function (req, res, next) {
         }
         console.log(user_array);
     });
-});
+});*/
 
-router.get('/get-page-token', async function (req, res) {
+/*router.get('/get-page-token', async function (req, res) {
     var getData = axios.create({
         baseURL: 'https://graph.facebook.com/v4.0/',
     });
@@ -100,6 +75,6 @@ router.get('/get-page-token', async function (req, res) {
         title: 'test',
         data: data
     })
-});
+});*/
 
 module.exports = router;

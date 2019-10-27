@@ -7,6 +7,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/middleware/AuthGlobal.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/Index.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/Index.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/Login.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/Login.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/middleware/Auth.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/middleware/Auth.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router/Index.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/Index.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router/Login.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/Login.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/global.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/global.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +40,26 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+=======
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_001" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+>>>>>>> 9146948b71ba6239d889194c5bc24504cf4c0e66
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LapTrinh\JS\web_003\view" />
+      <recent name="E:\LapTrinh\JS\web_003\view\layout" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,7 +77,11 @@
     <configuration name="debug" type="NodeJSConfigurationType" node-parameters="--inspect=6000" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="nodemon" type="NodeJSConfigurationType" node-parameters="C:\Users\AnhVanPC\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+=======
+    <configuration name="nodemon" type="NodeJSConfigurationType" node-parameters="C:\Users\AnhVan\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon.js --inspect=5050" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+>>>>>>> 9146948b71ba6239d889194c5bc24504cf4c0e66
       <method v="2" />
     </configuration>
     <configuration name="run" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
@@ -85,8 +111,24 @@
       <workItem from="1571104737461" duration="5101000" />
       <workItem from="1571110087860" duration="11354000" />
       <workItem from="1571190851612" duration="21889000" />
+<<<<<<< HEAD
       <workItem from="1571277685300" duration="11673000" />
       <workItem from="1571507567963" duration="1208000" />
+=======
+      <workItem from="1571277685300" duration="11747000" />
+      <workItem from="1571365167988" duration="4122000" />
+      <workItem from="1571369419493" duration="6746000" />
+      <workItem from="1571381967806" duration="4643000" />
+      <workItem from="1571454086470" duration="617000" />
+      <workItem from="1571640392045" duration="1630000" />
+      <workItem from="1571709434504" duration="1045000" />
+      <workItem from="1571710516801" duration="15266000" />
+      <workItem from="1571794744175" duration="3252000" />
+      <workItem from="1571798776662" duration="28000" />
+      <workItem from="1571798909956" duration="6503000" />
+      <workItem from="1571816302422" duration="616000" />
+      <workItem from="1571971705830" duration="5641000" />
+>>>>>>> 9146948b71ba6239d889194c5bc24504cf4c0e66
     </task>
     <servers />
   </component>

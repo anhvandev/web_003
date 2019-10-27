@@ -1,9 +1,11 @@
-module.exports.admin = mongoose.connect('mongodb+srv://admin:anhvan99@cluster0-4quw9.mongodb.net/test?retryWrites=true&w=majority&authSource=tests', {
+mongoose.connect(settings.DATABASE_ONE.uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
-}).then(function () {
-    console.log('connected');
-    mongoose.connection.on('error', function (err) {
-        console.log(err);
-    });
 });
+mongoose.Promise = global.Promise;
+let db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
+module.exports.table = {
+    user: 'users'
+};
